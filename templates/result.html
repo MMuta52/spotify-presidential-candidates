@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block body %}
+ 
+<script src="script.js"></script>
+<div class="block1">
+<h1>Your match: {{candidate}}</h1>
+
+<img src={{image}} alt={{candidate}} />
+
+<p>Candidates in order of similarity to your music:</p>
+<ol>
+    {% for candidate in result %}
+        <li> {{ candidate[0] }} </li>
+    {% endfor %}
+</ol>    
+
+</div>
+
+{% endblock %}
+
