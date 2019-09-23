@@ -44,10 +44,15 @@ I square the artist component because I felt that listening to the same artist a
 
 # File Structure
 `main.py` - Runs the Flask API and handles Spotify authentication.
+
 `functions.py` - Contains functions that handle the logic/math of our music analysis.
+
 `candidates.py` - Contains hard-coded values linking candidates to existing Spotify playlists of their campaign rally music.
+
 `templates/*` - HTML templates for the web pages that load when you use the app.
+
 `requirements.txt` - Frozen list of dependencies on the virtual environment used to run the application.
+
 `keys.py` - Not included here, but contains API keys needed to access Spotify API endpoints.
 
 # Dependencies
