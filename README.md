@@ -1,6 +1,7 @@
 # Spotify Presidential Candidates
 
 ![](images/input.png) ![](images/result.png) 
+
 The New York Times published an [article](https://www.nytimes.com/interactive/2019/08/19/us/politics/presidential-campaign-songs-playlists.html?smtyp=cur&smid=tw-nytimes) analyzing the music played at campaign rallies of the 2020 United States Presidential candidates. The article is really interesting and the graphics are very well done---definitely give it a read!
 
 Using the playlists that they published for each candidate, this app compares your Spotify listening history to each candidate and tells you whose campaign music is most similar to your music.
