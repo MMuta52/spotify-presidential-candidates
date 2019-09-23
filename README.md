@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Spotify Presidential Candidates
 
 The New York Times published an [article](https://www.nytimes.com/interactive/2019/08/19/us/politics/presidential-campaign-songs-playlists.html?smtyp=cur&smid=tw-nytimes) analyzing the music played at campaign rallies of the 2020 United States Presidential candidates. The article is really interesting and the graphics are very well done---definitely give it a read!
@@ -51,3 +52,6 @@ Mention instead of averaging across musical features, use clustering to learn (m
 mention add andrew yang, maybe obama
 
 maybe will host on webpage for public use or explore other options to make usable by other people
+=======
+# spotify-presidential-candidates
+>>>>>>> 058c47bf681f623d9f26fe883f586b197ccccab5
