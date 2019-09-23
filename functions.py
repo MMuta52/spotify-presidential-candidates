@@ -162,7 +162,7 @@ def candidate_profiles(sp):
 	Compile candidate profiles into one dataframe
 	"""
 	candidate_df = pd.DataFrame(columns=['name', 'image', 'danceability','energy','instrumentalness','liveness','loudness','speechiness','valence'])
-	candidates = ['Donald Trump', 'Joe Biden', 'Pete Buttigieg', 'Julian Castro', 'Cory Booker', 'Bernie Sanders', 'Kirsten Gillibrand', 'Elizabeth Warren', "Beto O'Rourke", 'Kamala Harris']
+	candidates = ['Donald Trump', 'Joe Biden', 'Pete Buttigieg', 'Julian Castro', 'Cory Booker', 'Bernie Sanders', 'Kirsten Gillibrand', 'Elizabeth Warren', "Beto O'Rourke", 'Kamala Harris', 'Andrew Yang']
 	for candidate in candidates:
 		tracks, artists, image = get_candidate(sp, candidate)
 		profile = create_profile(sp, candidate, tracks, artists, image=image)

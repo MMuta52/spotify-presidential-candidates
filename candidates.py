@@ -16,6 +16,7 @@ def get_candidate(sp, candidate):
 	playlist_uris['Elizabeth Warren'] = 'spotify:playlist:6YRWneVEDsSEiQOJ5e7R3Z'
 	playlist_uris["Beto O'Rourke"] = 'spotify:playlist:0Ztf87HOfRF3XMy9AGu4Dm'
 	playlist_uris['Kamala Harris'] = 'spotify:playlist:3I8VI6fZMRvIyRHmqc3qda'
+	playlist_uris['Andrew Yang'] = 'spotify:playlist:6DB8wXUA71Q0xqMs23y0Fe'
 	
 	playlist = sp.user_playlist('1213054860', playlist_uris[candidate])
 
