@@ -8,13 +8,13 @@ Using the playlists that they published for each candidate, this app compares yo
 
 # Usage
 
-Unfortunately, at this point I don't really have the time/resources to host this app online for easy public use. Maybe I'll come back to it later in the election cycle and give it a shot. For now, if you want to use the app you can follow the instructions below:
+Unfortunately, at this point I don't really have the time/resources to host this app online for easy public use. Maybe I'll come back to it later in the election cycle and give it a shot. For now, if you want to use the app you can follow the instructions below to run it locally on your computer:
 1. The app uses Spotify API keys that can't be posted publicly. If you want to use the app, shoot me an email at matthew.mutammara@gmail.com and I'll send you the keys!
 2. Download the repository and place the keys.py file that I send you in that folder with the rest of the files.
 3. Make sure you have Python 3 installed with all the packages listed in requirements.txt (I'd recommend creating a [virtual environment](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/) and [using pip to install the packages from requirements.txt](https://stackoverflow.com/questions/7225900/how-to-install-packages-using-pip-according-to-the-requirements-txt-file-from-a))
 4. Open up your terminal and navigate to the app's directory
 5. Run the command `python main.py`
-6. Open up your web browser and go to `localhost:8888`
+6. Open up your web browser and go to `localhost:6969`
 7. Type in your Spotify username and click Submit
 8. You will likely be asked to log in to Spotify, then redirected to a `404: Not Found` page. At the same time, your terminal window will say something like `Enter the URL you were redirected to`. Copy/paste the URL from the `404: Not Found` page into the terminal and press `Enter`. 
 9. You should see some loading information in the terminal as the application runs
