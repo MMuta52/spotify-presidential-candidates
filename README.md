@@ -58,8 +58,11 @@ I square the artist component because I felt that listening to the same artist a
 # Dependencies
 
 `requirements.txt` contains the complete list of required packages for this project, but I just wanted to highlight the main components below:
+
 [`spotipy`](https://spotipy.readthedocs.io/en/latest/) - Helpful Python wrapper on top of Spotify API endpoints.
+
 [`Flask`](https://palletsprojects.com/p/flask/) - Lightweight [WSGI](https://wsgi.readthedocs.io/) web application framework that's super easy to use for people who don't have much frontend experience.
+
 [`NumPy`](https://numpy.org) and [`pandas`](https://pandas.pydata.org) - Everyone's favorite tools for organizing and handling data.
 
 # Future Work
