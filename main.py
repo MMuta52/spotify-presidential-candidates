@@ -13,15 +13,6 @@ from keys import *
 
 scope = 'user-library-read user-top-read user-follow-read'
 
-# username = "1213054860"
-# Anna: spotify:user:1240918025
-# if len(sys.argv) > 1:
-#     username = sys.argv[1]
-# else:
-# 	print('Username required!')
-# 	print('Usage: %s username' % (sys.argv[0],))
-# 	sys.exit()
-
 app = Flask(__name__)
 
 @app.route('/')
@@ -43,11 +34,8 @@ def run_app():
 
 	result = compare_to_candidates(spotify_auth, user_profile)
 	top_candidate = result[0][0]
-	# image_path = 'candidate-pictures/' + top_candidate + '.jpg'
 	image_path = result[0][2]
-	print(result)
-	print(top_candidate)
-	print(image_path)
+
 	return render_template('result.html', result=result, candidate=top_candidate, image=image_path)
 
 if __name__ == "__main__":
